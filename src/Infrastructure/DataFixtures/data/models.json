@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "2108",
+    "brand": 1
+  },
+  {
+    "id": 2,
+    "name": "2109",
+    "brand": 1
+  },
+  {
+    "id": 3,
+    "name": "2110",
+    "brand": 1
+  },
+  {
+    "id": 4,
+    "name": "Cerato",
+    "brand": 2
+  },
+  {
+    "id": 5,
+    "name": "Ceed",
+    "brand": 2
+  },
+  {
+    "id": 6,
+    "name": "Picanto",
+    "brand": 2
+  }
+]

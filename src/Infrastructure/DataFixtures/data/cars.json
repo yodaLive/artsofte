@@ -1,0 +1,38 @@
+[
+  {
+    "photo": "photo car 2",
+    "price": 3242444,
+    "model": 1,
+    "id": 1
+  },
+  {
+    "photo": "photo car 2",
+    "price": 3242444,
+    "model": 2,
+    "id": 2
+  },
+  {
+    "photo": "photo car 1",
+    "price": 4343576,
+    "model": 3,
+    "id": 3
+  },
+  {
+    "photo": "photo car 3",
+    "price": 4343576,
+    "model": 4,
+    "id": 4
+  },
+  {
+    "photo": "photo car 4",
+    "price": 3242444,
+    "model": 5,
+    "id": 5
+  },
+  {
+    "photo": "photo car 5",
+    "price": 3242444,
+    "model": 6,
+    "id": 6
+  }
+]

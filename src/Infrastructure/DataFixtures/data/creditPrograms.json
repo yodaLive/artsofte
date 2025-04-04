@@ -1,0 +1,26 @@
+[
+  {
+    "name": "ВТБ Кредит",
+    "minInitialPayment": 100000,
+    "maxMonthlyPayment": 7000,
+    "maxLoanTermMonths": 80,
+    "interestRate": 15.3,
+    "id": 1
+  },
+  {
+    "name": "Alfa Energy",
+    "minInitialPayment": 200000,
+    "maxMonthlyPayment": 10000,
+    "maxLoanTermMonths": 64,
+    "interestRate": 12.3,
+    "id": 2
+  },
+  {
+    "name": "Сбер Кредит",
+    "minInitialPayment": 300000,
+    "maxMonthlyPayment": 15000,
+    "maxLoanTermMonths": 36,
+    "interestRate": 9.3,
+    "id": 3
+  }
+]

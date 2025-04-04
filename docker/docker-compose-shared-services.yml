@@ -1,0 +1,26 @@
+services:
+    psql:
+        image: postgres:15
+        restart: on-failure
+        container_name: psql
+        networks:
+            - artsofte
+        volumes:
+            - psql_data:/var/lib/postgresql/data
+        environment:
+            POSTGRES_DB: ${POSTGRES_DB}
+            POSTGRES_USER: ${POSTGRES_USER}
+            POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+        ports:
+            - "5432:5432"
+        healthcheck:
+            test: [ "CMD", "pg_isready", "-U", "${POSTGRES_USER}" ]
+            interval: 5s
+            timeout: 10s
+            retries: 5
+networks:
+    artsofte:
+        driver: bridge
+
+volumes:
+    psql_data:
